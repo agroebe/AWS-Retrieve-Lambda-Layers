@@ -1,8 +1,8 @@
 # AWS-Retrieve-Lambda-Layers
 
-A really simple Python utility script used to grab AWS Lambda Layer information (specifically, latest version ARNs for each Layer).
+A really simple Python utility script used to grab AWS Lambda Layer information (specifically, latest version ARNs for each Layer). Mostly made this repo to hold onto this if I ever need it again.
 
-The script uses a defined list of Lambda Layer names and retrieves ARNs that represent their most recent version. A formatted string can than be printed to stdout and retrieved in a Jenkinsfile, Terraform, etc.
+The script uses a defined list of Lambda Layer names and retrieves ARNs that represent their most recent version. A formatted string can than be printed to stdout and retrieved in a Jenkinsfile, Terraform, etc. to be used in Infrastructure as Code.
 
 This example is tailored to Terraform because that was my use case, but this can probably come in handy elsewhere.
 
